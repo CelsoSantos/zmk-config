@@ -2,12 +2,23 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: joelspadin
-      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
-      remote: joelspadin
-      revision: debounce-rework
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     - name: joelspadin
+#       url-base: https://github.com/joelspadin
+#   projects:
+#     - name: zmk
+#       remote: joelspadin
+#       revision: debounce-rework
+#       import: app/west.yml
+#   self:
+#     path: config
