@@ -75,10 +75,10 @@
         // | SHFT |     |     |     |     |     |   |     |     | F13 | LFT | DWN | RGT |
         //                    | GUI |     | ENT |   | SPC |     | ALT |
         bindings = <
-        &kp ESC    &trans &trans &trans    &trans &trans    &kp trans  &kp trans  &kp trans  &kp N0    &trans   &kp DEL
-        &kp LCTRL  &trans &trans &trans    &trans &trans    &kp trans  &kp trans  &kp trans  &trans    &kp UP   &trans
-        &kp LSHFT  &trans &trans &trans    &trans &trans    &kp trans  &kp trans  &kp F13    &kp LEFT  &kp DOWN &kp RIGHT
-                                 &kp LGUI  &trans &kp RET   &kp SPACE  &kp trans  &kp RALT
+        &kp ESC    &trans &trans &trans    &trans &trans    &trans     &trans  &trans   &trans    &trans   &kp DEL
+        &kp LCTRL  &trans &trans &trans    &trans &trans    &trans     &trans  &trans   &trans    &kp UP   &trans
+        &kp LSHFT  &trans &trans &trans    &trans &trans    &trans     &trans  &kp F13  &kp LEFT  &kp DOWN &kp RIGHT
+                                 &kp LGUI  &trans &kp RET   &kp SPACE  &trans  &kp RALT
         >;
       };
     };
